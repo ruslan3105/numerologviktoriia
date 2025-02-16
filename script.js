@@ -293,10 +293,11 @@
      var temp = interest + logic + luck;
      var detnum = rch2;
 
-     var selectday = document.getElementById('days');
-     var day = selectday.options[selectday.selectedIndex].value;
+     //var selectday = document.getElementById('days');
+     //var day = selectday.options[selectday.selectedIndex].value;
+     var day = pifag.getDay();
 
-     var selectmonth = document.getElementById("months");
+     /*var selectmonth = document.getElementById("months");
      var value2 = selectmonth.value2;
      var months = selectmonth.options[selectmonth.selectedIndex].text;
      if(months == 'Січень') {
@@ -334,10 +335,12 @@
      }
      if(months == 'Грудень') {
       months='12';
-     }
+     }*/
+     var months = pifag.getMonth();
 
-     var selectyear = document.getElementById('year');
-     var year = selectyear.options[selectyear.selectedIndex].value;
+    // var selectyear = document.getElementById('year');
+    // var year = selectyear.options[selectyear.selectedIndex].value;
+     var year = pifag.getFullYear();
 
      var name = document.getElementById('username').value;
 
@@ -406,7 +409,7 @@
 
 function mainFunction() {
   var outPut = '';
-  var female_date = new Date('' + document.getElementById("months").value + ' ' + document.getElementById("days").value + ', ' + document.getElementById("year").value);
+  var female_date = new Date(document.getElementById("birthDate").value);
   outPut = outPut + pifagor(female_date);
     return outPut;
 }
