@@ -16,7 +16,7 @@ body{
     cursor: pointer;
     margin-top: 10px;
     display: inline-block;
-    color:#DAF7A6;
+    color:#C70039;
     transition: 0.3s ease-out;
     border:1px rgb(172, 172, 172) solid;
     -webkit-box-shadow: 0px 0px 61px -12px rgba(0,0,0,0.63);
@@ -25,7 +25,7 @@ box-shadow: 0px 0px 61px -12px rgba(0,0,0,0.63);
     /* font-family: 'Montserrat Alternates', sans-serif; */
 }
 #go-pif:hover{
-    background: #DAF7A6 ;
+    background: #C70039 ;
     color:white;
     
 }
@@ -58,7 +58,7 @@ box-shadow: 0px 0px 61px -12px rgba(0,0,0,0.63);
 
 }
 .stp{
-  color:  #DAF7A6;
+  color:  #C70039;
 }
 .custom-select select {
   display: none; /*hide original SELECT element:*/
