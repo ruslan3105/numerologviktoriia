@@ -295,7 +295,7 @@
 
      //var selectday = document.getElementById('days');
      //var day = selectday.options[selectday.selectedIndex].value;
-     var day = pifag.getDay();
+     var day = pifag.getDate();
 
      /*var selectmonth = document.getElementById("months");
      var value2 = selectmonth.value2;
@@ -409,7 +409,8 @@
 
 function mainFunction() {
   var outPut = '';
-  var female_date = new Date(document.getElementById("birthDate").value);
+  var female_date_str = new Date(document.getElementById("birthDate").value).toUTCString();
+  var female_date = new Date(female_date_str.substr(0, female_date_str.indexOf("GMT")));
   outPut = outPut + pifagor(female_date);
     return outPut;
 }
