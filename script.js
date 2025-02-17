@@ -362,16 +362,16 @@
 
     return '<div class="pifagor-square" id="result"><table rules="all" cellspacing="10" cellpadding="10" style="margin-top:20px; "><tbody>'+
          '<tr align="center">'+
-         '<td colspan="2" height="110px" style="background:#F2D0A4 ; ;border-top-left-radius: 15px;"><p class="stp" >'+name+'</p><p class="pifagor-char">'+day+'.'+months+'.'+year+'</p></td>'+
-        '<td colspan="1" height="110px" style="background:#F2D0A4 ;"><p class="stp" >Число Долі</p><p class="pifagor-char">'+rch2+'</p></td>'+
-        '<td width="120px" height="110px" style="background:#F2D0A4; border-top-right-radius:15px;"><p class="stp">Темперамент</p><p class="pifagor-char">'+temp+'</p></td>' +
+         '<td colspan="2" height="110px" style="background:#DAF7A6 ; ;border-top-left-radius: 15px;"><p class="stp" >'+name+'</p><p class="pifagor-char">'+day+'.'+months+'.'+year+'</p></td>'+
+        '<td colspan="1" height="110px" style="background:#DAF7A6 ;"><p class="stp" >Число Долі</p><p class="pifagor-char">'+rch2+'</p></td>'+
+        '<td width="120px" height="110px" style="background:#DAF7A6; border-top-right-radius:15px;"><p class="stp">Темперамент</p><p class="pifagor-char">'+temp+'</p></td>' +
 
 
         '<tr align="center">'+
           '<td width="120px" height="110px"><p class = "pifagor-char"></p><p class = "stp">Характер</p><p class="pifagor-char">'+fkol_1+'</p></td>'+
           '<td width="120px" height="110px"><p class = "pifagor-char"></p><p class = "stp">Здоровʼя</p><p class="pifagor-char">'+fkol_4+'</p></td>'+
           '<td width="120px" height="110px"><p class = "pifagor-char"></p><p class = "stp">Удача</p><p class="pifagor-char">'+fkol_7+'</p></td>'+
-          '<td width="120px" height="110px" style="background:#F2D0A4 ;><p class = "pifagor-char"></p><p class = "stp">Ціль</p><p class="pifagor-char">'+target+'</p></td>'+
+          '<td width="120px" height="110px" style="background:#DAF7A6 ;><p class = "pifagor-char"></p><p class = "stp">Ціль</p><p class="pifagor-char">'+target+'</p></td>'+
 
 
 
@@ -380,7 +380,7 @@
           '<td width="120px" height="110px"><p class = "pifagor-char"></p><p class = "stp">Логіка</p><p class="pifagor-char">'+fkol_5+'</p></td>'+
 
           '<td width="120px" height="110px"><p class = "pifagor-char"></p><p class = "stp">Обовʼязок</p><p class="pifagor-char">'+fkol_8+'</p></td>'+
-          '<td width="120px" height="110px" style="background:#F2D0A4 ;><p class = "pifagor-char"></p><p class = "stp">Сімʼя</p><p class="pifagor-char">'+fam+'</p></td>'+
+          '<td width="120px" height="110px" style="background:#DAF7A6 ;><p class = "pifagor-char"></p><p class = "stp">Сімʼя</p><p class="pifagor-char">'+fam+'</p></td>'+
 
 
 
@@ -388,14 +388,14 @@
           '<td width="120px" height="110px"><p class = "pifagor-char"></p><p class = "stp">Цікавість</p><p class="pifagor-char">'+fkol_3+'</p></td>'+
           '<td width="120px" height="110px"><p class = "pifagor-char"></p><p class = "stp">Праця</p><p class="pifagor-char">'+fkol_6+'</p></td>'+
           '<td width="120px" height="110px"><p class = "pifagor-char"></p><p class = "stp">Памʼять</p><p class="pifagor-char">'+fkol_9+'</p></td>'+
-           '<td width="120px" height="110px" style="background:#F2D0A4 ;><p class = "pifagor-char"></p><p class = "stp">Звички</p><p class="pifagor-char">'+hab+'</p></td>'+
+           '<td width="120px" height="110px" style="background:#DAF7A6 ;><p class = "pifagor-char"></p><p class = "stp">Звички</p><p class="pifagor-char">'+hab+'</p></td>'+
 
 
 
         '<tr align="center">'+
-          '<td width="120px" height="110px" style="background:#F2D0A4; border-bottom-left-radius:15px;"><p class = "stp">Самооцінка</p><p class = "pifagor-char">'+selfesteem+'</p><p class = "stp"></p><p class = "stp"></p></td>'+
+          '<td width="120px" height="110px" style="background:#DAF7A6; border-bottom-left-radius:15px;"><p class = "stp">Самооцінка</p><p class = "pifagor-char">'+selfesteem+'</p><p class = "stp"></p><p class = "stp"></p></td>'+
 
-          '<td width="120px" height="110px" style="background:#F2D0A4;"><p class = "stp">Побут</p><p class = "pifagor-char">'+life+'</p><p class = "stp"></p><p class = "stp"></p></td>'+
+          '<td width="120px" height="110px" style="background:#DAF7A6;"><p class = "stp">Побут</p><p class = "pifagor-char">'+life+'</p><p class = "stp"></p><p class = "stp"></p></td>'+
 
           '<td colspan="2" height="110px"> <p class="stp extr_num_mg" style="font-size:12px;" >Додаткові Числа</p> <p  class="stp extr_num_mg" style="font-size:12px;">'+rch1+', '+rch2+', '+rch3+', '+rch4+' </p><hr><div id="dynamicText"> <p class="extr_num_mg" style="font-size:12px;">'+fkol_1+'/ '+fkol_2+'/ '+fkol_3+'/ '+fkol_4+'/ '+fkol_5+'/ '+fkol_6+'/ '+fkol_7+'/ '+fkol_8+'/ '+fkol_9+'/ ЧД '+rch2+' </p>  </div></td> ' +
           '</tbody> ' +
