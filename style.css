@@ -29,6 +29,15 @@ box-shadow: 0px 0px 61px -12px rgba(0,0,0,0.63);
     color:white;
     
 }
+
+.calculator-2 {
+    display: flex;
+    gap: 20px;
+}
+.calculator-2 div {
+    display: flex;
+    flex-direction: column;
+}
 .calculator-p{
   /* font-family: 'Cuprum', sans-serif; */
     color: white;
