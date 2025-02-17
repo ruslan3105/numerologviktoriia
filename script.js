@@ -336,7 +336,7 @@
      if(months == 'Грудень') {
       months='12';
      }*/
-     var months = pifag.getMonth();
+     var months = pifag.getMonth() + 1;
 
     // var selectyear = document.getElementById('year');
     // var year = selectyear.options[selectyear.selectedIndex].value;
