@@ -10,17 +10,21 @@
       <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
    </head>
    <body>
-      <div class="container">
+     <div class="container">
          <div class="row">
             <div class="calculator-2">
-               <div class="row">
-                  <p class="calculator-p" style="margin:2px;">Ваше Імʼя</p>
-                  <input id="username" type="text" placeholder="Імʼя">
-                  <p class="calculator-p" style="margin:8px;">Ваша дата народження</p>
-				  <input type="date" id="birthDate" value="2000-01-01">
-                  <a id="go-pif" class="btn  btn-primary btn-go-spec" role="button">Розрахувати</a>
-               </div>
+	       <div>
+	          <label for="username" class="calculator-p">Ваше Імʼя</label>
+		  <input id="username" type="text" placeholder="Імʼя">
+	       </div>
+	       <div>
+		  <label for="birthDate" class="calculator-p">Ваша дата народження</label>
+		  <input type="date" id="birthDate" value="2000-01-01">
+	       </div>
             </div>
+	    <div class="row">
+	       <a id="go-pif" class="btn  btn-primary btn-go-spec" role="button">Розрахувати</a>
+	    </div>
          </div>
          <div class="results" style="text-align:center;">
             <div class="close-result"></div>
