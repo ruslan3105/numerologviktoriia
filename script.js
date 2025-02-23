@@ -397,7 +397,7 @@
 
           '<td width="120px" height="110px" style="background:#DAF7A6;"><p class = "stp">Быт</p><p class = "pifagor-char">'+life+'</p><p class = "stp"></p><p class = "stp"></p></td>'+
 
-          '<td colspan="2" height="110px"> <p class="stp extr_num_mg" style="font-size:12px;" >Дополнительные числа</p> <p  class="stp extr_num_mg" style="font-size:12px;">'+rch1+', '+rch2+', '+rch3+', '+rch4+' </p><hr><div id="dynamicText"> <p class="extr_num_mg" style="font-size:12px;">'+fkol_1+'/ '+fkol_2+'/ '+fkol_3+'/ '+fkol_4+'/ '+fkol_5+'/ '+fkol_6+'/ '+fkol_7+'/ '+fkol_8+'/ '+fkol_9+'/ ЧД '+rch2+' </p>  </div></td> ' +
+          '<td colspan="2" height="110px"> <p class="stp extr_num_mg" style="font-size:12px;" >Дополнительные числа</p> <p  class="stp extr_num_mg" style="font-size:12px;">'+rch1+', '+rch2+', '+rch3+', '+rch4+' </p><hr><div id="dynamicText"> <p class="extr_num_mg" style="font-size:12px;">'+fkol_1+'/ '+fkol_2+'/ '+fkol_3+'/ '+fkol_4+'/ '+fkol_5+'/ '+fkol_6+'/ '+fkol_7+'/ '+fkol_8+'/ '+fkol_9+'/ БЧ '+rch2+' </p>  </div></td> ' +
           '</tbody> ' +
           '</table>'
           //'</table></div><br><div>Первая сумма: '+rch1+'<br>Вторая сумма: '+rch2+'<br>Третья сумма: '+rch3+'<br>Четвертая сумма: '+rch4+'<br>Пятая сумма: '+rch5+'<br>Шестая сумма: '+rch6+'</div>'
